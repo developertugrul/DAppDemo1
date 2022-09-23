@@ -1,6 +1,4 @@
 service : {
   increaseVariable: () -> () oneway;
   multiply: (nat, nat) -> ();
-  withdraw: (nat) -> ();
-  withdrawl: (nat) -> () oneway;
 }
